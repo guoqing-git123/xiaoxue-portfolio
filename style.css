@@ -411,10 +411,8 @@ nav button,
 
 .profile-intro {
   padding: 36px;
-  border: 1px solid var(--gold-soft);
-  background:
-    linear-gradient(135deg, rgba(255, 253, 250, 0.36), transparent 58%),
-    linear-gradient(145deg, #dfe4dc 0%, #e9e3d7 100%);
+  border: 1px solid var(--line);
+  background: var(--paper);
   color: var(--ink);
   position: relative;
   overflow: hidden;
@@ -620,10 +618,8 @@ strong {
 }
 
 .strength-card.feature {
-  border-color: var(--gold-soft);
-  background:
-    linear-gradient(135deg, rgba(255, 253, 250, 0.3), transparent 62%),
-    linear-gradient(145deg, #e3e6df 0%, #eee8dc 100%);
+  border-color: var(--line);
+  background: var(--paper);
 }
 
 .card-no {
