@@ -411,8 +411,11 @@ nav button,
 
 .profile-intro {
   padding: 36px;
-  background: var(--ink);
-  color: var(--bg);
+  border: 1px solid var(--gold-soft);
+  background:
+    linear-gradient(135deg, rgba(255, 253, 250, 0.36), transparent 58%),
+    linear-gradient(145deg, #dfe4dc 0%, #e9e3d7 100%);
+  color: var(--ink);
   position: relative;
   overflow: hidden;
 }
@@ -422,7 +425,7 @@ nav button,
   position: absolute;
   right: -12px;
   bottom: -65px;
-  color: rgba(255, 255, 255, 0.045);
+  color: rgba(24, 58, 64, 0.045);
   font: 700 150px/1 Georgia, serif;
 }
 
@@ -435,7 +438,7 @@ nav button,
 }
 
 .profile-intro > p:not(.lead) {
-  color: rgba(246, 242, 232, 0.7);
+  color: var(--ink-soft);
   font-size: 13px;
 }
 
@@ -451,12 +454,12 @@ nav button,
 .identity-list div {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid rgba(246, 242, 232, 0.17);
+  border-top: 1px solid rgba(24, 58, 64, 0.15);
   padding: 12px 0;
 }
 
 .identity-list dt {
-  color: var(--gold-soft);
+  color: var(--gold);
   font-size: 10px;
   letter-spacing: 1px;
 }
@@ -617,7 +620,10 @@ strong {
 }
 
 .strength-card.feature {
-  background: #e9e4d9;
+  border-color: var(--gold-soft);
+  background:
+    linear-gradient(135deg, rgba(255, 253, 250, 0.3), transparent 62%),
+    linear-gradient(145deg, #e3e6df 0%, #eee8dc 100%);
 }
 
 .card-no {

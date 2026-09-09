@@ -40,8 +40,8 @@ languageButton.addEventListener('click', () => {
     }
   });
   languageButton.textContent = language === 'zh' ? '中 / EN' : 'EN / 中';
-  menuButton.textContent = language === 'zh' ? '菜单' : 'MENU';
-  menuButton.setAttribute('aria-label', language === 'zh' ? '打开导航' : 'Open navigation');
+  menuButton.textContent = language === 'zh' ? '目录' : 'CONTENTS';
+  menuButton.setAttribute('aria-label', language === 'zh' ? '打开目录' : 'Open contents');
   document.title = language === 'zh'
     ? '邝小雪 · 人力资源与招聘'
     : 'Kuang Xiaoxue · Human Resources & Recruitment';
